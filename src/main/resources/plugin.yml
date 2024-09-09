@@ -1,0 +1,13 @@
+name: CommandDrops
+version: '${project.version}'
+main: me.github.gavvydizzle.commanddrops.CommandDrops
+api-version: '1.20'
+softdepend: [Multiverse-Core, PlaceholderAPI]
+depend: [WorldGuard, ServerUtils]
+authors: [GavvyDizzle]
+description: A command based rewards system
+commands:
+  drops:
+    description: CommandDrops admin commands
+    permission: commanddrops.admin
+    permission-message: Insufficient permission
